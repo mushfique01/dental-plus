@@ -156,6 +156,12 @@ header .info p {
   letter-spacing: 1px;
 }
 
+.banner .two h3{
+  background: none;
+  color: #00cce1;
+  padding-left: 0;
+}
+
 .banner h1 {
   background: #f69165;
   display: inline-block;
@@ -166,6 +172,13 @@ header .info p {
   text-transform: uppercase;
   margin: 10px 0 20px;
   line-height: 48px;
+  
+}
+
+.banner .two h1{
+  background: none;
+  color: #f69165;
+  padding-left: 0;
 }
 
 .banner p {

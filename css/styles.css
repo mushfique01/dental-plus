@@ -205,7 +205,7 @@ header .info p {
 .banner .bt:hover {
   color: #f69165;
   background: transparent;
-  box-shadow: #f69165 0px 0px 0px 3px;
+  box-shadow: #f69165 0px 0px 0px 2px;
 }
 
 .banner .book {

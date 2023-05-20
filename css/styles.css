@@ -2,16 +2,7 @@
   font-family: "Roboto", sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-ul,
-li,
-p,
-a {
+h1,h2,h3,h4,h5,h6,ul,li,p,a {
   margin: 0;
   padding: 0;
 }
@@ -59,7 +50,7 @@ header .info p {
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
-  padding-right: 48px;
+  padding-right: 40px;
 }
 
 .nav_bar ul li a {
@@ -132,6 +123,7 @@ header .info p {
   background-position: center;
   background-size: cover;
   position: relative;
+  min-height: 78vh;
 }
 
 .banner .bWrapper {
@@ -142,6 +134,13 @@ header .info p {
 .banner .img {
   position: absolute;
   bottom: 0;
+  margin-left: 2rem;
+  width: 44%;
+}
+
+.banner .two .img {
+  width: 30%;
+  margin-left: 6rem;
 }
 
 .banner h3 {
@@ -149,44 +148,50 @@ header .info p {
   display: inline-block;
   text-transform: uppercase;
   color: #ffffff;
-  font-weight: bolder;
+  font-weight: bold;
   font-size: 36px;
-  padding: 16px 24px;
+  padding: 6px 26px;
   line-height: 48px;
-  letter-spacing: 1px;
 }
 
 .banner .two h3{
   background: none;
   color: #00cce1;
-  padding-left: 0;
+  font-size: 48px;
+  line-height: 48px;
+  padding: 0;
+  font-weight: 900;
 }
 
 .banner h1 {
   background: #f69165;
   display: inline-block;
   color: #ffffff;
-  padding: 16px 24px;
+  padding: 11px 26px;
   font-size: 48px;
-  font-weight: bolder;
+  font-weight: 900;
   text-transform: uppercase;
   margin: 10px 0 20px;
   line-height: 48px;
-  
 }
 
 .banner .two h1{
   background: none;
   color: #f69165;
-  padding-left: 0;
+  padding: 0;
+  font-size: 72px;
+  line-height: 48px;
+  font-weight: 900;
+  padding: 27px 0;
+  margin: 0;
 }
 
 .banner p {
   font-size: 18px;
-  /* width: 85%; */
   color: #636363;
   line-height: 30px;
-  margin-bottom: 36px;
+  margin-bottom: 44px;
+  font-weight: 500;
 }
 
 .banner .bt {
@@ -216,5 +221,5 @@ header .info p {
 .banner .book:hover {
   color: #00cce1;
   background: transparent;
-  box-shadow: #00cce1 0px 0px 0px 3px;
+  box-shadow: #00cce1 0px 0px 0px 2px;
 }

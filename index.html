@@ -124,39 +124,41 @@
     <!--=============================== BANNER =============================-->
     
     <section class="banner">
-        <div class="container">
-            <div class="owl-carousel">
+        <div class="owl-carousel">
+            <div class="container">
                 <div class="row bWrapper">
                     <div class="col-md-6">
-                    <div class="bannerContent px-2 py-4">
+                    <div class="bannerContent">
                         <h3>We Provide Total</h3>
                         <h1>Dental Care Solution</h1>
-                        <p>Continually cultivate scalable methodologies avid theme backend and extend optimal service and high growth strategies.
+                        <p>Continually cultivate scalable methodologies theme backend and extend optimal service and high growth strategies.
                         </p>
                         <button type="button" class="btn bt learn">learn more</button>
                         <button type="button" class="btn bt book">book now</button>
                     </div>
                     </div>
-                    <div class="col-md-6 imageWrapper">
+                    <div class="col-md-5">
                         <div class="img">
-                            <img src="images/banner-1.png" alt="banner" class="img-fluid">
+                            <img src="images/banner-1.png" alt="banner_one" class="img-fluid">
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="container">
                 <div class="row bWrapper two">
                     <div class="col-md-6">
-                    <div class="bannerContent px-2 py-4">
+                    <div class="bannerContent">
                         <h3>Exceptional service.</h3>
                         <h1>Soft & gentle.</h1>
-                        <p>Continually cultivate scalable methodologies avid theme backend and extend optimal service and high growth strategies.
+                        <p>Continually cultivate scalable methodologies theme backend and extend optimal service and high growth strategies.
                         </p>
                         <button type="button" class="btn bt learn">learn more</button>
                         <button type="button" class="btn bt book">book now</button>
                     </div>
                     </div>
-                    <div class="col-md-6 imageWrapper">
+                    <div class="col-md-5 imageWrapper">
                         <div class="img">
-                            <img src="images/banner-2.png" alt="banner" class="img-fluid">
+                            <img src="images/banner-2.png" alt="banner_two" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -184,16 +186,16 @@
         $(document).ready(function(){
             $(".owl-carousel").owlCarousel({
                 items:1,
-                autoplay:true,
+                autoplay:false,
                 loop:true,
                 autoplayTimeout:4000,
                 smartSpeed:1000,
+                dots:false,
             });
         });
     </script>
 
     <!--=============================== END OF JS =============================-->
-    
     
 </body>
 </html>

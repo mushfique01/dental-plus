@@ -806,7 +806,7 @@ header .info p {
   display: flex;
   margin-bottom: 24px;
 }
-.contact .box form input[type="email"] {
+.contact .box form input {
   background-color: #1b1b1b;
   border-radius: 0px;
   border: 2px solid #252525;
@@ -815,9 +815,8 @@ header .info p {
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
-  width: 290px;
 }
-.contact .box form input[type="email"]:focus {
+.contact .box form input:focus {
   font-size: 16px;
   font-weight: 500;
   color: #ffffff;
@@ -827,19 +826,20 @@ header .info p {
 .contact .box form input::placeholder {
   color: #3d3d3d;
 }
-.contact .box form input[type="submit"] {
+.contact .box form input[type="email"] {
+  width: 290px;
+}
+.contact .box form .btn-sign {
   color: #ffffff;
   border: 2px solid #f69165;
   border-radius: 0px;
   background-color: #f69165;
-  line-height: 24px;
-  font-size: 16px;
-  height: 50px;
-  font-weight: 900;
   width: 110px;
+  font-weight: 900;
+  line-height: 24px;
   transition: 0.4s all ease-in-out;
 }
-.contact .box form input[type="submit"]:hover {
+.contact .box form .btn-sign:hover {
   background-color: transparent;
   color: #f69165;
 }

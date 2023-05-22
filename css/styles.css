@@ -821,6 +821,7 @@ header .info p {
   color: #ffffff;
   border: 2px solid #f69165;
   box-shadow: none;
+  width: 290px;
 }
 .contact .box form input::placeholder {
   color: #3d3d3d;

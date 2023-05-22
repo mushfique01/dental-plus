@@ -833,11 +833,14 @@ header .info p {
   border-radius: 0px;
   background-color: #f69165;
   width: 110px;
-  transition: 0.5s all ease-in-out;
+  transition: 0.4s all ease-in-out;
 }
 .contact .box form .btn-sign:hover {
   background-color: transparent;
   color: #f69165;
+}
+.contact .box form .btn-sign:focus{
+  width: 110px;
 }
 .footer {
   background-color: #161616;

@@ -813,7 +813,6 @@ header .info p {
   color: #ffffff;
   height: 50px;
   font-size: 16px;
-  width: 100px;
 }
 .contact .box form input:focus {
   font-size: 16px;
@@ -826,9 +825,6 @@ header .info p {
   color: #3d3d3d;
 }
 .contact .box form input[type="email"] {
-  width: 290px;
-}
-.contact .box form input[type="email"]:focus{
   width: 290px;
 }
 .contact .box form .btn-sign {

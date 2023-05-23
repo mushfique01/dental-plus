@@ -460,6 +460,7 @@ header .info p {
 }
 .services .cards:hover {
   border-color: #f69165;
+  box-shadow: #f69165 0px 5px 15px 0px;
 }
 .services .cards .top {
   margin-bottom: 20px;
@@ -526,6 +527,7 @@ header .info p {
 }
 .price .cards:hover {
   background-color: #f69165;
+  transform: scale(1.05);
 }
 .price .cards:hover .mid h1,
 .mid h2 {
@@ -750,12 +752,19 @@ header .info p {
   line-height: 22px;
   color: #b4b4b4;
   font-weight: 500;
-  margin-bottom: 10px;
+  background-position: bottom left;
+  background-size: 0% 2px;
+  background-image: linear-gradient(#f69165, #f69165);
+  padding-bottom: 2px;
+  display: inline;
+  background-repeat: no-repeat;
+  transition: 0.4s all ease-in-out;
 }
 .contact .box .poster h3:hover {
-  text-decoration: solid underline #f69165 2px;
+  background-size: 100% 2px;
 }
 .contact .box .poster p {
+  padding-top: 10px;
   font-size: 14px;
   line-height: 20px;
   color: #777777;

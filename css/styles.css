@@ -805,19 +805,23 @@ header .info p {
 .contact .box form {
   display: flex;
   margin-bottom: 24px;
+  position: relative;
 }
 .contact .box form input {
   background-color: #1b1b1b;
   border-radius: 0px;
-  border: 2px solid #252525;
+  border: 2px ridge #252525;
   color: #ffffff;
   height: 50px;
+  outline: none;
+  width: 100%;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
 }
 .contact .box form input:focus {
   font-size: 16px;
+  line-height: 24px;
   font-weight: 500;
   color: #ffffff;
   border: 2px solid #f69165;
@@ -826,15 +830,14 @@ header .info p {
 .contact .box form input::placeholder {
   color: #3d3d3d;
 }
-.contact .box form input[type="email"] {
-  width: 290px;
-}
 .contact .box form .btn-sign {
   color: #ffffff;
   border: 2px solid #f69165;
   border-radius: 0px;
   background-color: #f69165;
-  width: 110px;
+  position: absolute;
+  right: 0;
+  width: 30%;
   font-weight: 900;
   line-height: 24px;
   transition: 0.4s all ease-in-out;

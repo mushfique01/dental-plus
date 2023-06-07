@@ -1,49 +1,43 @@
 * {
   font-family: "Roboto", sans-serif;
 }
-
 h1,h2,h3,h4,h5,h6,ul,li,p,a {
   margin: 0;
   padding: 0;
 }
-
 header .headerWrapper {
   display: flex;
   align-items: center;
   padding-left: 36px;
 }
-
+header .top{
+  padding: 40px 0;
+}
 header .icon {
   font-size: 36px;
   color: #f69165;
 }
-
 header .icon .fa-envelope {
   font-size: 40px;
 }
-
 header .icon i {
   margin-right: 12px;
 }
-
 header .info h3 {
   font-size: 22px;
   line-height: 24px;
   color: #363636;
   font-weight: bold;
 }
-
 header .info p {
   color: #a0a0a0;
   font-size: 16px;
   line-height: 24px;
   font-weight: bold;
 }
-
 .nav_bar {
   background: #00cce1;
 }
-
 .nav_bar ul li {
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
@@ -52,18 +46,15 @@ header .info p {
   line-height: 20px;
   padding-right: 40px;
 }
-
 .nav_bar ul li a {
   color: #ffffff;
   transition: 0.4s ease-in-out;
   position: relative;
   padding: 0 !important;
 }
-
 .nav_bar ul li a:hover {
   color: #f69165;
 }
-
 .nav_bar a::before {
   content: "";
   position: absolute;
@@ -75,12 +66,10 @@ header .info p {
   width: 0;
   transition: 0.4s all ease-in-out;
 }
-
 .nav_bar a:hover:before {
   width: 100%;
   left: 0;
 }
-
 .nav_bar .path {
   background: #f69165;
   color: #ffffff;
@@ -90,7 +79,6 @@ header .info p {
   padding: 0;
   transition: 0.4s ease-in-out;
 }
-
 .nav_bar .path:hover {
   clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
 }
@@ -100,25 +88,19 @@ header .info p {
 .nav_bar .path:hover .pathWrapper {
   font-weight: bold;
 }
-
 .nav_bar .path i {
   margin-right: 10px;
   font-size: 20px;
   line-height: 24px;
 }
-
 .nav_bar .path p {
   font-size: 20px;
-
   line-height: 24px;
-
   text-transform: uppercase;
 }
-
 .nav_bar .pathWrapper {
   padding: 27px 32px;
 }
-
 .banner {
   background-image: url(../images/bg.png);
   background-repeat: no-repeat;
@@ -127,24 +109,20 @@ header .info p {
   position: relative;
   min-height: 78vh;
 }
-
 .banner .bWrapper {
-  min-height: 78vh;
+  min-height: 82vh;
   align-items: center;
 }
-
 .banner .img {
   position: absolute;
   bottom: 0;
   margin-left: 2rem;
   width: 44%;
 }
-
 .banner .two .img {
   width: 30%;
   margin-left: 6rem;
 }
-
 .banner h3 {
   background: #00cce1;
   display: inline-block;
@@ -155,7 +133,6 @@ header .info p {
   padding: 6px 26px;
   line-height: 48px;
 }
-
 .banner .two h3 {
   background: none;
   color: #00cce1;
@@ -164,7 +141,6 @@ header .info p {
   padding: 0;
   font-weight: 900;
 }
-
 .banner h1 {
   background: #f69165;
   display: inline-block;
@@ -176,18 +152,16 @@ header .info p {
   margin: 10px 0 20px;
   line-height: 48px;
 }
-
 .banner .two h1 {
   background: none;
   color: #f69165;
   padding: 0;
   font-size: 72px;
-  line-height: 48px;
+  line-height: 72px;
   font-weight: 900;
   padding: 27px 0;
   margin: 0;
 }
-
 .banner p {
   font-size: 18px;
   color: #636363;
@@ -195,7 +169,6 @@ header .info p {
   margin-bottom: 44px;
   font-weight: 500;
 }
-
 .banner .bt {
   background: #f69165;
   color: #ffffff;
@@ -208,19 +181,16 @@ header .info p {
   padding: 10px 20px;
   transition: 0.2s ease-in-out;
 }
-
 .banner .bt:hover {
   color: #f69165;
   background: transparent;
   box-shadow: #f69165 0px 0px 0px 2px;
 }
-
 .banner .book {
   background: #00cce1;
   margin-left: 20px;
   transition: 0.4s all ease-in-out;
 }
-
 .banner .book:hover {
   color: #00cce1;
   background: transparent;
@@ -273,18 +243,22 @@ header .info p {
 .agency {
   background-image: url(../images/doctors.png);
   background-repeat: no-repeat;
-  background-position: 4.625rem bottom;
-  background-size: 38%;
-  min-height: 82vh;
+  background-position: 4% bottom;
+  background-size: 44%;
   position: relative;
+  padding: 120px 0px;
+}
+@media (max-width: 1400px) {
+  .agency {
+    background-size: 54%;
+  }
 }
 .agency .aWrapper {
-  min-height: 82vh;
   align-items: center;
 }
 .agency h1 {
   font-size: 36px;
-  line-height: 24px;
+  line-height: 36px;
   font-weight: bold;
   margin-bottom: 24px;
 }
@@ -357,7 +331,6 @@ header .info p {
   width: 100%;
   height: 100%;
 }
-
 .doctors .imageIcon {
   display: flex;
   justify-content: space-between;
@@ -371,11 +344,9 @@ header .info p {
   cursor: pointer;
   transition: 0.5s all ease-in-out;
 }
-
 .doctors .cards:hover .imageIcon {
   opacity: 1;
 }
-
 .doctors .imageIcon button {
   width: 40px;
   height: 40px;
@@ -460,7 +431,6 @@ header .info p {
 }
 .services .cards:hover {
   border-color: #f69165;
-  box-shadow: #f69165 0px 5px 15px 0px;
 }
 .services .cards .top {
   margin-bottom: 20px;
@@ -683,7 +653,6 @@ header .info p {
   background-size: cover;
   position: relative;
 }
-
 .contact .box .head {
   margin-bottom: 48px;
   color: #ffffff;
@@ -699,13 +668,11 @@ header .info p {
 .contact .box .pThree {
   margin-bottom: 30px;
 }
-
 .contact .infoWrapper {
   display: flex;
   align-items: center;
   margin-bottom: 30px;
 }
-
 .contact .infoWrapper .icon {
   font-size: 34px;
   color: #00cce1;
@@ -716,25 +683,21 @@ header .info p {
 .contact .infoWrapper .icon .fa-envelope {
   font-size: 34px;
 }
-
 .contact .infoWrapper .icon i {
   margin-right: 20px;
 }
-
 .contact .infoWrapper .info h3 {
   font-size: 22px;
   line-height: 24px;
   color: #363636;
   font-weight: bold;
 }
-
 .contact .infoWrapper.info p {
   color: #a0a0a0;
   font-size: 16px;
   line-height: 24px;
   font-weight: bold;
 }
-
 .contact .box .poster .postWrapper {
   display: flex;
   align-items: flex-start;
@@ -743,7 +706,6 @@ header .info p {
 .contact .box .poster .postWrapper .imgbox {
   margin-right: 20px;
 }
-
 .contact .box .poster a {
   text-decoration: none;
 }
@@ -752,16 +714,11 @@ header .info p {
   line-height: 22px;
   color: #b4b4b4;
   font-weight: 500;
-  background-position: bottom left;
-  background-size: 0% 2px;
-  background-image: linear-gradient(#f69165, #f69165);
   padding-bottom: 2px;
-  display: inline;
-  background-repeat: no-repeat;
   transition: 0.4s all ease-in-out;
 }
 .contact .box .poster h3:hover {
-  background-size: 100% 2px;
+  color: #f49064;
 }
 .contact .box .poster p {
   padding-top: 10px;
@@ -787,7 +744,6 @@ header .info p {
   line-height: 30px;
   color: #ffffff;
 }
-
 .contact .box .socials ul li a {
   text-decoration: none;
 }
@@ -807,7 +763,6 @@ header .info p {
   border-radius: 2px;
   transition: 0.4s all ease-in-out;
 }
-
 .contact .box .iconBox:hover {
   background-color: #f69165;
 }
